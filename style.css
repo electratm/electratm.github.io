@@ -1,0 +1,137 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#fae69a, #d2506e, #383a62);
+}
+
+.main {
+    color: #000000;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    line-height: 500px;
+    text-align: center;
+    color: #000000;
+}
+
+.button {
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+.text {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*#signature {
+    stroke-dasharray: 2568;
+    stroke-dashoffset: 2568;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}*/
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #000000;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #ffffff;
+    color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    width: 10px;
+    height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222222;
+    border: 0px none;
+}
+
+::-webkit-scrollbar-track {
+    border: 0px none;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
